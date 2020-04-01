@@ -27,7 +27,7 @@ namespace WageRate
             {
                 hours = int.Parse(textBoxHours.Text);
                 weeklyWage = hours * WAGE_RATE;
-                MessageBox.Show("Wages to be paid is " + weeklyWage.ToString());
+                MessageBox.Show("Wages to be paid is " + weeklyWage.ToString("c"));
             }
             catch (Exception ex)
             {
